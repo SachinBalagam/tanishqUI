@@ -1,9 +1,9 @@
-import styles from "../styles/Home.module.css";
+import Header from "../components/home/Header.jsx";
 
 const Home = () => {
   return (
     <div>
-      <h1 className={styles.header}>Home Page</h1>
+      <Header />
     </div>
   );
 }
