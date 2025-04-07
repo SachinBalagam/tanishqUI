@@ -3,7 +3,9 @@ import styles from "../../styles/home/Header.module.css";
 const Header = () => {
   return (
     <div className={styles.header}>
-      <h1>Welcome to the Header</h1>
+      <div>
+        <img src="../../src/assets/header/download.svg" alt="logo" className={styles.logo} />
+      </div>
     </div>
   );
 };
